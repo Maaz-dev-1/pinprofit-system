@@ -1,0 +1,31 @@
+{
+  "name": "PinProfit — Affiliate Pin System",
+  "short_name": "PinProfit",
+  "description": "Automate your Pinterest affiliate marketing — research, create, and post pins automatically.",
+  "theme_color": "#E8426A",
+  "background_color": "#1A0A10",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Research",
+      "short_name": "Research",
+      "url": "/research",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Upload Pin",
+      "short_name": "New Pin",
+      "url": "/publisher",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["business", "productivity", "social"]
+}

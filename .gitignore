@@ -8,7 +8,7 @@ venv/
 env/
 
 # Build output
-frontend/dist/
+# frontend/dist/ (committed to bypass Render free tier build limits)
 
 # IDE
 .vscode/
